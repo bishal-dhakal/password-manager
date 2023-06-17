@@ -1,5 +1,5 @@
 const crypto = require("crypto");
-const secret = "pppppppppppppppppppppppppppppppp";
+const secret = "qwertyuioplkjhgfdsazxcvbnmmakala";
 
 const encrypt = (password) => {
     const iv = Buffer.from(crypto.randomBytes(16));
